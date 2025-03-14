@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ExamenC2ArmentaPerez"
         tools:targetApi="31">
         <activity
+            android:name=".coldDrinks"
+            android:exported="false" />
+        <activity
+            android:name=".OptionMenu"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
