@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ExamenC2ArmentaPerez</string>
+    <string name="welcome">Welcome to The Cheezery!</string>
+    <string name="infoMain">Home of the most wonderful desserts ever seen (and tasted) by the human being</string>
+    <string name="getStarted">Get started!</string>
 </resources>
