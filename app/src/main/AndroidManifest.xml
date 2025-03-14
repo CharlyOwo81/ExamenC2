@@ -13,7 +13,10 @@
         android:theme="@style/Theme.ExamenC2ArmentaPerez"
         tools:targetApi="31">
         <activity
-            android:name=".coldDrinks"
+            android:name=".DetalleProducto"
+            android:exported="false" />
+        <activity
+            android:name=".ProductsGrid"
             android:exported="false" />
         <activity
             android:name=".OptionMenu"
