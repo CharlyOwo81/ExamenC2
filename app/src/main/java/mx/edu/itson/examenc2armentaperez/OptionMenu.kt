@@ -32,26 +32,23 @@ class OptionMenu : AppCompatActivity() {
 
         btnColdDrinks.setOnClickListener {
             var intent: Intent = Intent(this,ProductsGrid::class.java)
-            intent.putExtra("menuType","Cold Drinks")
+            intent.putExtra("menuType","coldDrinks")
             startActivity(intent)
         }
         btnHotDrinks.setOnClickListener {
             var intent: Intent = Intent(this,ProductsGrid::class.java)
-            intent.putExtra("menuType","Hot Drinks")
+            intent.putExtra("menuType","hotDrinks")
             startActivity(intent)
         }
         btnSweets.setOnClickListener {
             var intent: Intent = Intent(this,ProductsGrid::class.java)
-            intent.putExtra("menuType","Sweets")
+            intent.putExtra("menuType","sweets")
             startActivity(intent)
         }
         btnSalties.setOnClickListener {
             var intent: Intent = Intent(this,ProductsGrid::class.java)
-            intent.putExtra("menuType","Salties")
+            intent.putExtra("menuType","salties")
             startActivity(intent)
         }
-
-
-
     }
 }
